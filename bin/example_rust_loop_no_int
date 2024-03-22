@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+# can't be interrupted
+
+require "example"
+
+Example.loop_no_int

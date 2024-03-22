@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+# can be interrupted (may be a short delay)
+
+require "example"
+
+Example.loop_int

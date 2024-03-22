@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+# takes ~10 seconds to respond to interrupt
+
+require "example"
+
+loop do
+  Example.no_int_for(10)
+end

@@ -1,0 +1,13 @@
+= Uninterruptible Ruby Native Extension
+
+This repo contains some examples of a Ruby Native extension that stops Ruby
+from responding to signals, plus workarounds. The examples are with Rust and
+the Magnus crate, but apply equally to C - or any other language - native 
+extensions.
+
+These examples are structured as a gem, with runnable examples as gem
+executables, run them like:
+
+  bundle install
+  rake compile
+  bundle exec example_ruby_loop_delayed_int

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# can be interrupted
+
+require "example"
+
+loop do
+  Example.swallow_std_err do
+    sleep 1
+  end
+end
